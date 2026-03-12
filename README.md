@@ -43,5 +43,83 @@ Missing Word Prompting:
 • "In photosynthesis, plants absorb sunlight to produce ____."
 
 OUTPUT:
+1. Straightforward Prompts
+Prompt 1
 
-RESULT: 
+Prompt: Define Machine Learning in one sentence.
+
+Answer:
+Machine Learning is a branch of artificial intelligence that allows computers to learn patterns from data and make predictions without being explicitly programmed.
+
+Prompt 2
+
+Prompt: List three advantages of blockchain technology.
+
+Answer:
+
+Improved data security
+
+Transparency in transactions
+
+Decentralized control without a central authority
+
+2. Tabular Format Prompting
+Prompt 1
+
+Prompt: Compare AC and DC current in a table.
+
+Answer:
+
+| Feature       | AC Current                     | DC Current             |
+| ------------- | ------------------------------ | ---------------------- |
+| Full Form     | Alternating Current            | Direct Current         |
+| Direction     | Changes direction periodically | Flows in one direction |
+| Common Source | Power stations                 | Batteries              |
+| Usage         | Home electricity supply        | Electronic devices     |
+
+Prompt 2
+
+Prompt: Provide a table listing five programming languages and their main use cases.
+
+Answer:
+
+| Programming Language | Main Use Case           |
+| -------------------- | ----------------------- |
+| Python               | Data science and AI     |
+| Java                 | Enterprise applications |
+| C                    | System programming      |
+| JavaScript           | Web development         |
+| SQL                  | Database management     |
+
+3. Preceding Question Prompting
+Prompt 1
+
+Prompt: Why is cybersecurity important? Explain how it protects digital systems.
+
+Answer:
+Cybersecurity is important because it protects computer systems, networks, and data from unauthorized access and cyberattacks. It uses security measures such as encryption, firewalls, and authentication to safeguard sensitive information and maintain system reliability.
+
+Prompt 2
+
+Prompt: How does cloud computing help businesses? Explain its benefits.
+
+Answer:
+Cloud computing helps businesses by providing online access to storage, software, and computing resources without needing physical hardware. It reduces costs, improves scalability, and allows employees to access data from anywhere.
+
+4. Missing Word Prompting
+Prompt 1
+
+Prompt: The largest planet in our solar system is ______.
+
+Answer:
+Jupiter
+
+Prompt 2
+
+Prompt: In computer networks, IP stands for ______.
+
+Answer:
+Internet Protocol
+
+RESULT:
+The experiment demonstrated that different prompting styles can guide AI to produce different types of responses such as definitions, comparisons, explanations, and fill-in-the-blank answers. Each prompt type helps structure AI responses effectively depending on the task
